@@ -22,23 +22,29 @@ public class RemoveNthNode {
     }
     public static ListNode removeNthFromEnd(ListNode A, int B) {
 
-        int cnt=0;
+        int cnt=1;
         ListNode NFromEnd=A;
         ListNode head=A;
         if(A.next==null)
             return null;
-        while(A.next!=null&&A.next.next!=null)
-        {
-            if(cnt>=B+1)
-            {
-                NFromEnd=NFromEnd.next;
-
-                    NFromEnd.next=NFromEnd.next.next;
-
+        while(A.next!=null&&A.next.next!=null) {
+            if (cnt >= B) {
+                //Maintaining B distance from the next pointer
+                //so that when next reaches end,
+                //NFromEnd will be B distance away from it
+                NFromEnd = NFromEnd.next;
             }
+
             cnt++;
-            A=A.next;
+            A = A.next;
         }
-        return head;
+            if(B>cnt){
+                head=head.next;
+            }
+            else
+            {
+                NFromEnd.next=NFromEnd.next.next;
+            }
+            return head;
     }
 }

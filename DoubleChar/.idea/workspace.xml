@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bf60dd86-1d94-48ad-ac7d-33e63addff5b" name="Changes" comment="" />
+    <list default="true" id="1341636a-76dc-4a83-9cf0-c9a3436c1c26" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2BiKWYqM9uBKCLhpDmlihAtNwxS" />
+  <component name="ProjectId" id="2BlE5IDrZR3GEF98cSKgcfwYizP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,27 +34,27 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="NSL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NSL" />
-      <module name="NearestSmallestEle" />
+    <configuration name="DoubleCharTrouble" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DoubleCharTrouble" />
+      <module name="DoubleChar" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.NSL" />
+        <item itemvalue="Application.DoubleCharTrouble" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bf60dd86-1d94-48ad-ac7d-33e63addff5b" name="Changes" comment="" />
-      <created>1657383503640</created>
+      <changelist id="1341636a-76dc-4a83-9cf0-c9a3436c1c26" name="Changes" comment="" />
+      <created>1657472090086</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1657383503640</updated>
+      <updated>1657472090086</updated>
     </task>
     <servers />
   </component>
@@ -62,18 +62,11 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NSL.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/DoubleCharTrouble.java</url>
+          <line>24</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.util.EmptyStackException" package="java.util" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
       </breakpoints>
-      <default-breakpoints>
-        <breakpoint enabled="true" type="java-exception" />
-      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>

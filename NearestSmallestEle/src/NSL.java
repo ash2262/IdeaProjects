@@ -4,7 +4,8 @@ import java.util.Stack;
 
 public class NSL {
     public static void main(String[] args) {
-        int[] A={4, 5, 2, 10, 8};
+        //int[] A={4, 5, 2, 10, 8};
+        int[] A={2, 1, 5, 6, 2, 3};
         int[] out=prevSmaller(A);
         for (int i = 0; i < out.length; i++) {
             System.out.println(out[i]);

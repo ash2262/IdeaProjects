@@ -2,7 +2,7 @@ package com.example.ecom.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.ecom.models.User;
+import com.example.ecom.models.Preference;
 
-public interface PreferencesRepository extends JpaRepository<User, Integer>{
+public interface PreferencesRepository extends JpaRepository<Preference, Integer>{
 }

@@ -1,5 +1,12 @@
 package com.example.ecom.repositories;
 
-public interface AdvertisementRepository{
+import java.util.Optional;
 
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.example.ecom.models.Advertisement;
+import com.example.ecom.models.Preference;
+
+public interface AdvertisementRepository extends JpaRepository<Advertisement, Integer>{
+Optional<Advertisement> findByPreference(Preference preference);
 }

@@ -1,6 +1,7 @@
 package com.example.ecom.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.ecom.dtos.GetAdvertisementForUserRequestDto;
@@ -9,7 +10,7 @@ import com.example.ecom.dtos.ResponseStatus;
 import com.example.ecom.models.Advertisement;
 import com.example.ecom.services.AdsService;
 
-@RestController
+@Controller
 public class AdsController {
 
     AdsService adsService;

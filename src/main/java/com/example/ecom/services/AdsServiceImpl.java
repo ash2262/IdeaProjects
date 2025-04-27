@@ -4,6 +4,7 @@ package com.example.ecom.services;
 import java.util.List;
 import java.util.Optional;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.example.ecom.exceptions.UserNotFoundException;
@@ -21,6 +22,7 @@ public class AdsServiceImpl implements AdsService {
     private final PreferencesRepository preferencesRepository;
     private final AdvertisementRepository advertisementRepository;
 
+    @Autowired
     public AdsServiceImpl(UserRepository userRepository, PreferencesRepository preferencesRepository, AdvertisementRepository advertisementRepository) {
         this.userRepository = userRepository;
         this.preferencesRepository = preferencesRepository;

@@ -18,6 +18,6 @@ public class User extends BaseModel{
     private String name;
     private String email;
     
-    @OneToMany(fetch = FetchType.EAGER)
+    @OneToMany(fetch = FetchType.LAZY)
     private List<Preference> preferences;
 }

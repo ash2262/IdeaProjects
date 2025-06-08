@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3edbcc9-b018-4f6d-b0d8-9af6bb845299" name="Changes" comment="" />
+    <list default="true" id="e5a8d53e-acda-47a8-8305-770c34436b7e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +23,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="29kQZDqq6JahbgojhErXa82ktzy" />
+  <component name="ProjectId" id="2KfWMQQ8tGf9yHAXIuBK4jN3WH6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,30 +32,29 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
-    <configuration name="SortStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortStack" />
-      <module name="SortStack" />
+    <configuration name="SlidingWindowMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SlidingWindowMax" />
+      <module name="SlidingWindowMax" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SortStack" />
+        <item itemvalue="Application.SlidingWindowMax" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d3edbcc9-b018-4f6d-b0d8-9af6bb845299" name="Changes" comment="" />
-      <created>1653654659882</created>
+      <changelist id="e5a8d53e-acda-47a8-8305-770c34436b7e" name="Changes" comment="" />
+      <created>1674366072071</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653654659882</updated>
+      <updated>1674366072071</updated>
     </task>
     <servers />
   </component>
@@ -63,9 +62,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/SortStack.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/SlidingWindowMax.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
